@@ -5,7 +5,7 @@ HYPEN_E_DOT = '-e .'
 
 def get_requirements(file_path:str)->List[str]:
     '''
-    this function will return the list of requirements
+    this function will return the list of requirements 
     '''
     requirements=[]
     with open(file_path) as file_obj:
@@ -22,7 +22,7 @@ setup(
     name='mlproject',
     version='0.0.1',
     author='Varshit Fauzdar',
-    author_email='varshitfauzdar2004  @gmail.com',
+    author_email='varshitfauzdar2004@gmail.com',
     packages=find_packages(),
     install_requires=get_requirements('Requirement.txt')
 )
